@@ -1,0 +1,21 @@
+os: ubuntu/jammy64
+ip_nw: 192.168.56.
+ssh_port_start: 2800
+
+master:
+  num_nodes: 3
+  ip_start: 10
+  cpus: 2
+  memory: 2048
+
+worker:
+  num_nodes: 2
+  ip_start: 20
+  cpus: 4
+  memory: 4096
+
+lb:
+  num_nodes: 1
+  ip_start: 30
+  cpus: 2
+  memory: 1024
